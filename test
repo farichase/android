@@ -1,0 +1,70 @@
+Базартинова Фарида
+1. 
+файлы ресурсов - app/src/main/res
+файлы layout - res/layout
+строки и рисунки - res/values/strings.xml res/drawable 
+описание компонент - app/src/main/java/package
+описание разрешений - manifests/AndroidManifest.xml
+
+2. Основные компоненты android-приложения?
+– Activity
+– Service
+– Broadcast receiver
+– Content provider
+
+4.Класс R содержит ссылки на все ресурсы проекта
+
+5.
+minSDK — минимальная версия SDK, на которой может
+запускаться приложение
+targetSDK — версия SDK, на которой тестируется
+приложение
+
+6. Что обязательно указывается в AndroidManifest.xml? Должны быть объявлены все компоненты приложения
+
+7. Типы View. UI Components, Container Views
+
+8. Основные этапы создания меню.
+Создать .xml файл для описания элементов
+Установить атрибуты
+Инициализировать меню в .java файле
+Обработать нажатия на элементы меню
+
+9. Для чего используются и чем отличаются классы AsyncTask и AsyncTaskLoader?
+AsyncTask
+Позволяет посылать сообщения из фонового потока для
+отображения текущего состояния в главном потоке
+
+10. Уровни лог-сообщений.
+- verbose
+– debug
+– info
+– warn
+– error
+– [WTF] 
+11. Основные типы Layout.
+LinearLayout RelativeLayout FrameLayout ConstraintLayout
+
+12. Какой тип layout использовать, если:
+а) на экране один объект FrameLayout
+б) на экране три столбца со строками разной высоты StaggeredGridLayout
+
+13. Чем отличаются атрибуты padding и margin?
+Padding — задает пространство внутри границ view
+Margin — задает пространство вокруг view за его границами
+
+14. Можно ли объявить в xml-файле один layout внутри другого? Да
+
+16. В каких случаях необходимо использовать RecyclerView, а в каких ListFragment?
+а) список сообщений в соц.сети или писем в почте RecyclerView
+б) список погоды на 7 дней ListFragment
+
+18. Типы Intents, в чем их отличие.
+Explicit intents (для запуска компонента того же приложения)
+Implicit intents (для запуска компонента из другого приложения)
+
+19. Состояния Android-приложения. Методы, которые вызываются при переходах из одного
+состояния в другое. OnCreate OnStart OnResume OnPause OnStop OnDestroy
+
+23. В каких случаях используется метод onSavedInstanceState?
+Сохранение значений нужных типов (например при повороте экрана)

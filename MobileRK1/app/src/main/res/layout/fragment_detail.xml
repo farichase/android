@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:paddingLeft="24dp"-->
+<!--    android:paddingTop="16dp"-->
+<!--    android:paddingRight="24dp"-->
+<!--    android:paddingBottom="16dp"-->
+<!--    tools:context=".DetailFragment">-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".DetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDetailDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Date: 21.10.2021" />
+
+        <TextView
+            android:id="@+id/tvDetailOpen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Open: 57498.8" />
+
+        <TextView
+            android:id="@+id/tvDetailClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Close: 56010.9" />
+
+        <TextView
+            android:id="@+id/tvDetailLove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Low: 54098.22" />
+
+        <TextView
+            android:id="@+id/tvDetailHigh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="High: 57646.93" />
+
+        <TextView
+            android:id="@+id/tvDetailVolfrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Volume from: 33966.65" />
+
+        <TextView
+            android:id="@+id/tvDetailVolto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Volume to: 1913353762.18" />
+
+        <TextView
+            android:id="@+id/tvDetailConvType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Conversion type: direct" />
+
+        <TextView
+            android:id="@+id/tvDetailConvSymb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_elem_bot_padding"
+            android:textSize="20sp"
+            tools:text="Conversion symbol: " />
+    </LinearLayout>
+</ScrollView>

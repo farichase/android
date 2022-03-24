@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lab4</string>
+    <string name="main_fragment_text">Main fragment</string>
+    <string name="fragment1_text">Additional fragment</string>
+    <string name="btn_next_text">Go to the next fragment</string>
+    <string name="btn_alarm">Alarm</string>
+    <string name="btn_browser">Open browser</string>
+    <string name="btn_contact">Contact</string>
+    <string name="btn_text">Share text</string>
+    <string name="text">Text</string>
+</resources>

@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:defaultValue="@string/btc_currency"
+        android:entries="@array/currency_names"
+        android:entryValues="@array/currency_values"
+        android:key="list_preference_1"
+        android:title="Currency" />
+    <EditTextPreference
+        android:inputType="number"
+        android:key="edit_text_preference_2"
+        android:maxLength="2"
+        android:title="Number"/>
+</PreferenceScreen>

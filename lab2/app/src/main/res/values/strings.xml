@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="button_name">Click</string>
+    <string name="clicked_button">Clicked</string>
+    <string name="text">Hello my dear friend!</string>
+    <string name="refreshed_notification">The page has been updated</string>
+    <string name="menu_name">Refresh</string>
+    <string name="menu_name2">Change language</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Лаб2</string>
+    <string name="button_name">Активировать</string>
+    <string name="clicked_button">Активировано</string>
+    <string name="text">Здравствуй, мой дорогой друг!</string>
+    <string name="refreshed_notification">Страница была обновлена</string>
+    <string name="menu_name">Обновить</string>
+    <string name="menu_name2">Сменить язык</string>
+</resources>

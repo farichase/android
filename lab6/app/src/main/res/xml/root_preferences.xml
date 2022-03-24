@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <EditTextPreference
+            app:key="number"
+            app:title="@string/number"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="dark"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            app:title="@string/theme_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+            app:key="rev"
+            app:summaryOn="On"
+            app:summaryOff="Off"
+            app:title="@string/rev_title" />
+
+        <CheckBoxPreference
+            app:key="pict"
+            app:summaryOn="On"
+            app:summaryOff="Off"
+            app:title="@string/pic_title"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

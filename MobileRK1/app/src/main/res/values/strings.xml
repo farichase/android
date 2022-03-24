@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false" tools:ignore="Typos">MobileRK1</string>
+    <string name="main_frag_title">Rk</string>
+    <string name="detail_frag_title">Details</string>
+    <string name="extern_link_text"><u>Open in browser</u></string>
+
+    <string name="btc_currency">BTC</string>
+    <string name="eth_currency">ETH</string>
+    <string name="usd_currency">USD</string>
+    <string name="jpy_currency">JPY</string>
+    <string name="eur_currency">EUR</string>
+    <string name="gbr_currency">GBP</string>
+    <string name="show">Load</string>
+    <string name="btc_usd_eur">BTC/USD/EUR/…</string>
+
+    <string name="currency_list_elem" translatable="false">%f - %f</string>
+
+    <string name="details_date">Date: %s</string>
+    <string name="details_high">High: %f</string>
+    <string name="details_love">Low: %f</string>
+    <string name="details_volt">Volume to: %f</string>
+    <string name="details_wolf">Volume from: %f</string>
+    <string name="details_open">Open: %f</string>
+    <string name="details_close">Close: %f</string>
+    <string name="details_conv_type">Conversion type: %s</string>
+    <string name="details_conv_symb">Conversion symbol: %s</string>
+
+</resources>

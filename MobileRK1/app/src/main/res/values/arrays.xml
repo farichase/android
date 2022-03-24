@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="currency_names">
+        <item>@string/btc_currency</item>
+        <item>@string/eth_currency</item>
+        <item>@string/usd_currency</item>
+        <item>@string/jpy_currency</item>
+        <item>@string/eur_currency</item>
+        <item>@string/gbr_currency</item>
+    </array>
+    <array name="currency_values">
+        <item>@string/btc_currency</item>
+        <item>@string/eth_currency</item>
+        <item>@string/usd_currency</item>
+        <item>@string/jpy_currency</item>
+        <item>@string/eur_currency</item>
+        <item>@string/gbr_currency</item>
+    </array>
+</resources>
